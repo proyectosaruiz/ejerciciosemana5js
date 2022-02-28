@@ -17,3 +17,9 @@ const names = [
   "Arun",
   "Kenton",
 ];
+
+const filteredArray = names.filter(function (ele, pos) {
+  return names.indexOf(ele) == pos;
+});
+
+console.log(filteredArray);
